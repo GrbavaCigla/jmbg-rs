@@ -1,5 +1,6 @@
 [package]
 name = "jmbg"
+description = "JMBG (Unique Master Citizen Number) used in former Yugoslavian countries"
 version = "0.1.0"
 authors = ["GrbavaCigla <alexa.ognjanovic@protonmail.com>"]
 edition = "2018"

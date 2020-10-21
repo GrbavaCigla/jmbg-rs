@@ -8,17 +8,6 @@ pub enum Gender {
     Female,
 }
 
-macro_rules! return_error {
-    ($result:expr) => {{
-        match $result {
-            Ok(value) => value,
-            Err(error) => {
-                return Err(error);
-            }
-        }
-    }};
-}
-
 impl JMBG<'_> {
     pub fn day(&self) -> std::result::Result<u8, std::num::ParseIntError> {
         self.0[..2].parse::<u8>()

@@ -10,6 +10,9 @@ readme ="README.md"
 homepage = "https://github.com/GrbavaCigla/jmbg-rs"
 keywords = ["JMBG", "Unique", "Citizen", "UMCN"]
 
+# CI
+travis-ci = { repository = "https://github.com/GrbavaCigla/jmbg-rs", branch = "master" }
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
